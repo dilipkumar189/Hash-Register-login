@@ -15,7 +15,7 @@ app.use(session({
   secret: 'your_secret_key',
   resave: false,
   saveUninitialized: true,
-  cookie: { maxAge: 10 * 365 * 24 * 60 * 60 * 1000 } // Optional: Set cookie max age
+  cookie: { maxAge: 10 * 365 * 24 * 60 * 60 * 1000 } // Optional: Set the cookie max age
 }));
 
 // Database connection
