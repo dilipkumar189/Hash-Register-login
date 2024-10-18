@@ -2,7 +2,7 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const saltRound = 10;
 const session = require('express-session');
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 const mysql = require('mysql');
 
 const app = express();
